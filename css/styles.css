@@ -1,0 +1,117 @@
+.caja1 {
+    background-color: rgb(144, 144, 255);
+    height: 8vh;
+}
+
+.caja2 {
+    background-color: rgb(255, 144, 144);
+    height: 90vh;
+}
+
+.inicio {
+    background-color: rgb(138, 255, 163);
+    height: 100%;
+}
+
+.estatico {
+    background-color: rgb(156, 255, 255);
+    height: 90vh;
+}
+
+.movimiento {
+    background-color: beige;
+    height: 90vh;
+}
+
+.foto {
+    background-color: rgb(255, 132, 169);
+    height: 30vh;
+}
+
+.espaciado1 {
+    background-color: (156, 255, 255);
+    height: 2vh;
+}
+
+.info {
+    background-color: rgb(255, 132, 169);
+    height: 10vh;
+}
+
+.espacio {
+    background-color: beige;
+    height: 2vh;
+}
+
+.portafolio {
+    background-color: rgb(255, 167, 167);
+    height: 86vh;
+}
+
+.espaciado {
+    background-color: (156, 255, 255);
+    height: 2vh;
+}
+
+
+@media (max-width: 1200px) { 
+    .info {
+        background-color: rgb(255, 132, 169);
+        height: 10vh;
+        display: none;
+    }
+    
+}
+
+.descripcion {
+    background-color: rgb(255, 132, 169);
+    height: 30vh;
+}
+
+@media (max-width: 1200px) { 
+    .descripcion {
+        background-color: rgb(255, 132, 169);
+        height: 50%;
+    }
+    
+}
+
+@media (max-width: 767px) { 
+    .estatico {
+        background-color: rgb(156, 255, 255);
+        height: 30%;
+    }
+}
+
+@media (max-width: 767px) { 
+    .espaciado {
+        background-color: (156, 255, 255);
+        height: 2vh;
+        display: none;
+    }
+}
+
+@media (max-width: 767px) { 
+    .foto {
+        background-color: rgb(255, 132, 169);
+        height: 85%;
+    }
+    
+}
+
+@media (max-width: 767px) { 
+    .descripcion {
+        background-color: rgb(255, 132, 169);
+        display: none;
+
+    }
+    
+}
+
+@media (max-width: 767px) { 
+    .inicio {
+        background-color: rgb(138, 255, 163);
+        height: 100%;
+        display: none;
+    }
+}
